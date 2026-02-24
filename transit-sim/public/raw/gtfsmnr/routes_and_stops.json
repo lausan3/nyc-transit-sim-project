@@ -1,0 +1,600 @@
+[
+    {
+        "route_id": "3",
+        "stop_ids": [
+            {
+                "stop_id": "1",
+                "stop_name": "Grand Central",
+                "stop_lon": "-73.977056",
+                "stop_lat": "40.752998",
+                "parent_station": "",
+                "stop_sequence": "1"
+            },
+            {
+                "stop_id": "4",
+                "stop_name": "Harlem-125 St",
+                "stop_lon": "-73.939149",
+                "stop_lat": "40.805157",
+                "parent_station": "",
+                "stop_sequence": "2"
+            },
+            {
+                "stop_id": "56",
+                "stop_name": "Fordham",
+                "stop_lon": "-73.89058",
+                "stop_lat": "40.8615",
+                "parent_station": "",
+                "stop_sequence": "3"
+            },
+            {
+                "stop_id": "105",
+                "stop_name": "Mt Vernon East ",
+                "stop_lon": "-73.832185",
+                "stop_lat": "40.912161",
+                "parent_station": "",
+                "stop_sequence": "4"
+            },
+            {
+                "stop_id": "106",
+                "stop_name": "Pelham",
+                "stop_lon": "-73.810242",
+                "stop_lat": "40.910321",
+                "parent_station": "",
+                "stop_sequence": "5"
+            },
+            {
+                "stop_id": "108",
+                "stop_name": "New Rochelle",
+                "stop_lon": "-73.783807",
+                "stop_lat": "40.911605",
+                "parent_station": "",
+                "stop_sequence": "6"
+            },
+            {
+                "stop_id": "110",
+                "stop_name": "Larchmont",
+                "stop_lon": "-73.759792",
+                "stop_lat": "40.933394",
+                "parent_station": "",
+                "stop_sequence": "7"
+            },
+            {
+                "stop_id": "111",
+                "stop_name": "Mamaroneck",
+                "stop_lon": "-73.736125",
+                "stop_lat": "40.954061",
+                "parent_station": "",
+                "stop_sequence": "8"
+            },
+            {
+                "stop_id": "112",
+                "stop_name": "Harrison",
+                "stop_lon": "-73.712964",
+                "stop_lat": "40.969432",
+                "parent_station": "",
+                "stop_sequence": "9"
+            },
+            {
+                "stop_id": "114",
+                "stop_name": "Rye",
+                "stop_lon": "-73.682553",
+                "stop_lat": "40.985922",
+                "parent_station": "",
+                "stop_sequence": "10"
+            },
+            {
+                "stop_id": "115",
+                "stop_name": "Port Chester",
+                "stop_lon": "-73.6647",
+                "stop_lat": "41.000732",
+                "parent_station": "",
+                "stop_sequence": "11"
+            },
+            {
+                "stop_id": "116",
+                "stop_name": "Greenwich",
+                "stop_lon": "-73.624621",
+                "stop_lat": "41.021277",
+                "parent_station": "",
+                "stop_sequence": "12"
+            },
+            {
+                "stop_id": "118",
+                "stop_name": "Cos Cob",
+                "stop_lon": "-73.598306",
+                "stop_lat": "41.030171",
+                "parent_station": "",
+                "stop_sequence": "13"
+            },
+            {
+                "stop_id": "120",
+                "stop_name": "Riverside",
+                "stop_lon": "-73.588173",
+                "stop_lat": "41.031682",
+                "parent_station": "",
+                "stop_sequence": "14"
+            },
+            {
+                "stop_id": "121",
+                "stop_name": "Old Greenwich",
+                "stop_lon": "-73.565859",
+                "stop_lat": "41.033817",
+                "parent_station": "",
+                "stop_sequence": "15"
+            },
+            {
+                "stop_id": "124",
+                "stop_name": "Stamford",
+                "stop_lon": "-73.542846",
+                "stop_lat": "41.046611",
+                "parent_station": "",
+                "stop_sequence": "16"
+            }
+        ],
+        "route_short_name": "",
+        "route_desc": "",
+        "route_color": "EE0034",
+        "route_text_color": "FFFFFF"
+    },
+    {
+        "route_id": "4",
+        "stop_ids": [
+            {
+                "stop_id": "124",
+                "stop_name": "Stamford",
+                "stop_lon": "-73.542846",
+                "stop_lat": "41.046611",
+                "parent_station": "",
+                "stop_sequence": "1"
+            },
+            {
+                "stop_id": "153",
+                "stop_name": "Glenbrook",
+                "stop_lon": "-73.520021",
+                "stop_lat": "41.070547",
+                "parent_station": "",
+                "stop_sequence": "2"
+            },
+            {
+                "stop_id": "154",
+                "stop_name": "Springdale",
+                "stop_lon": "-73.517828",
+                "stop_lat": "41.08876",
+                "parent_station": "",
+                "stop_sequence": "3"
+            },
+            {
+                "stop_id": "155",
+                "stop_name": "Talmadge Hill",
+                "stop_lon": "-73.498149",
+                "stop_lat": "41.116012",
+                "parent_station": "",
+                "stop_sequence": "4"
+            },
+            {
+                "stop_id": "157",
+                "stop_name": "New Canaan",
+                "stop_lon": "-73.495626",
+                "stop_lat": "41.146305",
+                "parent_station": "",
+                "stop_sequence": "5"
+            }
+        ],
+        "route_short_name": "",
+        "route_desc": "",
+        "route_color": "EE0034",
+        "route_text_color": "FFFFFF"
+    },
+    {
+        "route_id": "5",
+        "stop_ids": [
+            {
+                "stop_id": "131",
+                "stop_name": "South Norwalk",
+                "stop_lon": "-73.421132",
+                "stop_lat": "41.09673",
+                "parent_station": "",
+                "stop_sequence": "1"
+            },
+            {
+                "stop_id": "158",
+                "stop_name": "Merritt 7",
+                "stop_lon": "-73.427859",
+                "stop_lat": "41.146618",
+                "parent_station": "",
+                "stop_sequence": "2"
+            },
+            {
+                "stop_id": "160",
+                "stop_name": "Wilton",
+                "stop_lon": "-73.432434",
+                "stop_lat": "41.196202",
+                "parent_station": "",
+                "stop_sequence": "3"
+            },
+            {
+                "stop_id": "161",
+                "stop_name": "Cannondale",
+                "stop_lon": "-73.426703",
+                "stop_lat": "41.21662",
+                "parent_station": "",
+                "stop_sequence": "4"
+            },
+            {
+                "stop_id": "162",
+                "stop_name": "Branchville",
+                "stop_lon": "-73.441421",
+                "stop_lat": "41.26763",
+                "parent_station": "",
+                "stop_sequence": "5"
+            },
+            {
+                "stop_id": "163",
+                "stop_name": "Redding",
+                "stop_lon": "-73.4338",
+                "stop_lat": "41.325684",
+                "parent_station": "",
+                "stop_sequence": "6"
+            },
+            {
+                "stop_id": "164",
+                "stop_name": "Bethel",
+                "stop_lon": "-73.418171",
+                "stop_lat": "41.376225",
+                "parent_station": "",
+                "stop_sequence": "7"
+            },
+            {
+                "stop_id": "165",
+                "stop_name": "Danbury",
+                "stop_lon": "-73.44879",
+                "stop_lat": "41.396146",
+                "parent_station": "",
+                "stop_sequence": "8"
+            }
+        ],
+        "route_short_name": "",
+        "route_desc": "",
+        "route_color": "EE0034",
+        "route_text_color": "FFFFFF"
+    },
+    {
+        "route_id": "6",
+        "stop_ids": [
+            {
+                "stop_id": "140",
+                "stop_name": "Bridgeport",
+                "stop_lon": "-73.187076",
+                "stop_lat": "41.178677",
+                "parent_station": "",
+                "stop_sequence": "1"
+            },
+            {
+                "stop_id": "167",
+                "stop_name": "Derby-Shelton",
+                "stop_lon": "-73.083548",
+                "stop_lat": "41.319718",
+                "parent_station": "",
+                "stop_sequence": "2"
+            },
+            {
+                "stop_id": "168",
+                "stop_name": "Ansonia",
+                "stop_lon": "-73.079892",
+                "stop_lat": "41.344156",
+                "parent_station": "",
+                "stop_sequence": "3"
+            },
+            {
+                "stop_id": "169",
+                "stop_name": "Seymour",
+                "stop_lon": "-73.072499",
+                "stop_lat": "41.395139",
+                "parent_station": "",
+                "stop_sequence": "4"
+            },
+            {
+                "stop_id": "170",
+                "stop_name": "Beacon Falls",
+                "stop_lon": "-73.06359",
+                "stop_lat": "41.441752",
+                "parent_station": "",
+                "stop_sequence": "5"
+            },
+            {
+                "stop_id": "171",
+                "stop_name": "Naugatuck",
+                "stop_lon": "-73.052655",
+                "stop_lat": "41.494204",
+                "parent_station": "",
+                "stop_sequence": "6"
+            },
+            {
+                "stop_id": "172",
+                "stop_name": "Waterbury",
+                "stop_lon": "-73.046126",
+                "stop_lat": "41.552728",
+                "parent_station": "",
+                "stop_sequence": "7"
+            }
+        ],
+        "route_short_name": "",
+        "route_desc": "",
+        "route_color": "EE0034",
+        "route_text_color": "FFFFFF"
+    },
+    {
+        "route_id": "1",
+        "stop_ids": [
+            {
+                "stop_id": "33",
+                "stop_name": "Croton-Harmon",
+                "stop_lon": "-73.882394",
+                "stop_lat": "41.189903",
+                "parent_station": "",
+                "stop_sequence": "1"
+            },
+            {
+                "stop_id": "31",
+                "stop_name": "Ossining",
+                "stop_lon": "-73.869281",
+                "stop_lat": "41.157663",
+                "parent_station": "",
+                "stop_sequence": "2"
+            },
+            {
+                "stop_id": "30",
+                "stop_name": "Scarborough",
+                "stop_lon": "-73.866163",
+                "stop_lat": "41.135763",
+                "parent_station": "",
+                "stop_sequence": "3"
+            },
+            {
+                "stop_id": "29",
+                "stop_name": "Philipse Manor",
+                "stop_lon": "-73.869755",
+                "stop_lat": "41.09492",
+                "parent_station": "",
+                "stop_sequence": "4"
+            },
+            {
+                "stop_id": "27",
+                "stop_name": "Tarrytown",
+                "stop_lon": "-73.864563",
+                "stop_lat": "41.076473",
+                "parent_station": "",
+                "stop_sequence": "5"
+            },
+            {
+                "stop_id": "25",
+                "stop_name": "Irvington",
+                "stop_lon": "-73.873083",
+                "stop_lat": "41.039993",
+                "parent_station": "",
+                "stop_sequence": "6"
+            },
+            {
+                "stop_id": "24",
+                "stop_name": "Ardsley-on-Hudson",
+                "stop_lon": "-73.876543",
+                "stop_lat": "41.026198",
+                "parent_station": "",
+                "stop_sequence": "7"
+            },
+            {
+                "stop_id": "23",
+                "stop_name": "Dobbs Ferry",
+                "stop_lon": "-73.87949",
+                "stop_lat": "41.012459",
+                "parent_station": "",
+                "stop_sequence": "8"
+            },
+            {
+                "stop_id": "22",
+                "stop_name": "Hastings-on-Hudson",
+                "stop_lon": "-73.884512",
+                "stop_lat": "40.994109",
+                "parent_station": "",
+                "stop_sequence": "9"
+            },
+            {
+                "stop_id": "20",
+                "stop_name": "Greystone",
+                "stop_lon": "-73.889069",
+                "stop_lat": "40.972705",
+                "parent_station": "",
+                "stop_sequence": "10"
+            },
+            {
+                "stop_id": "19",
+                "stop_name": "Glenwood",
+                "stop_lon": "-73.899062",
+                "stop_lat": "40.950496",
+                "parent_station": "",
+                "stop_sequence": "11"
+            },
+            {
+                "stop_id": "18",
+                "stop_name": "Yonkers",
+                "stop_lon": "-73.902668",
+                "stop_lat": "40.935795",
+                "parent_station": "",
+                "stop_sequence": "12"
+            },
+            {
+                "stop_id": "17",
+                "stop_name": "Ludlow",
+                "stop_lon": "-73.904612",
+                "stop_lat": "40.924972",
+                "parent_station": "",
+                "stop_sequence": "13"
+            },
+            {
+                "stop_id": "16",
+                "stop_name": "Riverdale",
+                "stop_lon": "-73.914126",
+                "stop_lat": "40.903981",
+                "parent_station": "",
+                "stop_sequence": "14"
+            },
+            {
+                "stop_id": "14",
+                "stop_name": "Spuyten Duyvil",
+                "stop_lon": "-73.921455",
+                "stop_lat": "40.878245",
+                "parent_station": "",
+                "stop_sequence": "15"
+            },
+            {
+                "stop_id": "11",
+                "stop_name": "Marble Hill",
+                "stop_lon": "-73.910941",
+                "stop_lat": "40.874333",
+                "parent_station": "",
+                "stop_sequence": "16"
+            },
+            {
+                "stop_id": "4",
+                "stop_name": "Harlem-125 St",
+                "stop_lon": "-73.939149",
+                "stop_lat": "40.805157",
+                "parent_station": "",
+                "stop_sequence": "17"
+            },
+            {
+                "stop_id": "1",
+                "stop_name": "Grand Central",
+                "stop_lon": "-73.977056",
+                "stop_lat": "40.752998",
+                "parent_station": "",
+                "stop_sequence": "18"
+            }
+        ],
+        "route_short_name": "",
+        "route_desc": "",
+        "route_color": "009B3A",
+        "route_text_color": "FFFFFF"
+    },
+    {
+        "route_id": "2",
+        "stop_ids": [
+            {
+                "stop_id": "68",
+                "stop_name": "Crestwood",
+                "stop_lon": "-73.820564",
+                "stop_lat": "40.958997",
+                "parent_station": "",
+                "stop_sequence": "1"
+            },
+            {
+                "stop_id": "66",
+                "stop_name": "Tuckahoe",
+                "stop_lon": "-73.830166",
+                "stop_lat": "40.949393",
+                "parent_station": "",
+                "stop_sequence": "2"
+            },
+            {
+                "stop_id": "65",
+                "stop_name": "Bronxville",
+                "stop_lon": "-73.835208",
+                "stop_lat": "40.93978",
+                "parent_station": "",
+                "stop_sequence": "3"
+            },
+            {
+                "stop_id": "64",
+                "stop_name": "Fleetwood",
+                "stop_lon": "-73.83948",
+                "stop_lat": "40.92699",
+                "parent_station": "",
+                "stop_sequence": "4"
+            },
+            {
+                "stop_id": "62",
+                "stop_name": "Mt Vernon West",
+                "stop_lon": "-73.851129",
+                "stop_lat": "40.912142",
+                "parent_station": "",
+                "stop_sequence": "5"
+            },
+            {
+                "stop_id": "61",
+                "stop_name": "Wakefield",
+                "stop_lon": "-73.85568",
+                "stop_lat": "40.905936",
+                "parent_station": "",
+                "stop_sequence": "6"
+            },
+            {
+                "stop_id": "59",
+                "stop_name": "Woodlawn",
+                "stop_lon": "-73.862916",
+                "stop_lat": "40.895361",
+                "parent_station": "",
+                "stop_sequence": "7"
+            },
+            {
+                "stop_id": "58",
+                "stop_name": "Williams Bridge",
+                "stop_lon": "-73.871064",
+                "stop_lat": "40.878569",
+                "parent_station": "",
+                "stop_sequence": "8"
+            },
+            {
+                "stop_id": "57",
+                "stop_name": "Botanical Garden",
+                "stop_lon": "-73.883109",
+                "stop_lat": "40.866555",
+                "parent_station": "",
+                "stop_sequence": "9"
+            },
+            {
+                "stop_id": "56",
+                "stop_name": "Fordham",
+                "stop_lon": "-73.89058",
+                "stop_lat": "40.8615",
+                "parent_station": "",
+                "stop_sequence": "10"
+            },
+            {
+                "stop_id": "55",
+                "stop_name": "Tremont",
+                "stop_lon": "-73.89955",
+                "stop_lat": "40.847301",
+                "parent_station": "",
+                "stop_sequence": "11"
+            },
+            {
+                "stop_id": "54",
+                "stop_name": "Melrose",
+                "stop_lon": "-73.915231",
+                "stop_lat": "40.825761",
+                "parent_station": "",
+                "stop_sequence": "12"
+            },
+            {
+                "stop_id": "4",
+                "stop_name": "Harlem-125 St",
+                "stop_lon": "-73.939149",
+                "stop_lat": "40.805157",
+                "parent_station": "",
+                "stop_sequence": "13"
+            },
+            {
+                "stop_id": "1",
+                "stop_name": "Grand Central",
+                "stop_lon": "-73.977056",
+                "stop_lat": "40.752998",
+                "parent_station": "",
+                "stop_sequence": "14"
+            }
+        ],
+        "route_short_name": "",
+        "route_desc": "",
+        "route_color": "0039A6",
+        "route_text_color": "FFFFFF"
+    }
+]
