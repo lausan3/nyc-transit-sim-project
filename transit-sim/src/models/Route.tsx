@@ -33,27 +33,4 @@ export class Route {
     this.route_text_color = route_text_color;
     this.route_sort_order = route_sort_order;
   }
-
-  parseFromCSVRow(row: string): Route {
-    const parts = row.split(",");
-
-    if (parts.length != 10) {
-      throw new Error(
-        `Invalid CSV row for Route: expected 10 fields, got ${parts.length}. Row: ${row}`,
-      );
-    }
-
-    return new Route(
-      parts[0],
-      parts[1],
-      parts[2],
-      parts[3],
-      parts[4],
-      parseInt(parts[5]),
-      parts[6],
-      parts[7],
-      parts[8],
-      parseInt(parts[9]),
-    );
-  }
 }

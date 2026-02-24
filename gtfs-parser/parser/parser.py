@@ -12,9 +12,9 @@ class GTFSParser:
     def parse_file(
         self,
         file_name: str,
-        rows_to_take: list[str] | None = None,
+        fields_to_take: list[str] | None = None,
     ) -> list[dict[str, str]]:
-        file_path = self.path + "/" + file_name
+        file_path = os.path.join(self.path, file_name)
 
         if not os.path.exists(file_path):
             print(f"File {file_name} does not exist in the provided path: {self.path}")
@@ -25,10 +25,24 @@ class GTFSParser:
         with open(file_path, "r") as file:
             reader = csv.DictReader(file)
 
+            if reader.fieldnames is None:
+                print(f"File {file_name} does not contain any fields.")
+                return []
+
+            if fields_to_take is not None:
+                for field in fields_to_take:
+                    if field not in list(reader.fieldnames):
+                        print(
+                            f"Field {field} does not exist in the file {file_name}. Available fields are: {reader.fieldnames}"
+                        )
+                        return []
+
             for row in reader:
-                if rows_to_take is not None:
+                if fields_to_take is not None:
                     row = {
-                        key: value for key, value in row.items() if key in rows_to_take
+                        key: value
+                        for key, value in row.items()
+                        if key in fields_to_take
                     }
 
                 out.append(row)
@@ -43,7 +57,7 @@ class GTFSParser:
         stops_per_route = {}
         routes = self.parse_file(
             "routes.txt",
-            rows_to_take=[
+            fields_to_take=[
                 "route_id",
                 "route_short_name",
                 "route_color",
@@ -53,7 +67,7 @@ class GTFSParser:
         )
         stops = self.parse_file(
             "stops.txt",
-            rows_to_take=[
+            fields_to_take=[
                 "stop_id",
                 "stop_name",
                 "stop_lon",
@@ -71,9 +85,9 @@ class GTFSParser:
             for stop in stops
         }
 
-        trips = self.parse_file("trips.txt", rows_to_take=["route_id", "trip_id"])
+        trips = self.parse_file("trips.txt", fields_to_take=["route_id", "trip_id"])
         stop_times = self.parse_file(
-            "stop_times.txt", rows_to_take=["trip_id", "stop_id", "stop_sequence"]
+            "stop_times.txt", fields_to_take=["trip_id", "stop_id", "stop_sequence"]
         )
 
         for route in routes:

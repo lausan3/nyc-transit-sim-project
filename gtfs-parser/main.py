@@ -8,7 +8,12 @@ def main():
         description="A tool to parse GTFS data and convert it to JSON format.",
     )
 
-    app.add_argument("-f", "--file", help="Path to the GTFS data file", required=False)
+    app.add_argument(
+        "-f",
+        "--file",
+        help="Path to the GTFS data folder. It must have routes.txt, stops.txt, trips.txt, and stop_times.txt",
+        required=False,
+    )
     app.add_argument(
         "-o", "--output", help="Path to the output JSON file", required=False
     )

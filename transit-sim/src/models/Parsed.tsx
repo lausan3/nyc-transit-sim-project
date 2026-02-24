@@ -3,7 +3,7 @@ export type ParsedStop = {
   stop_name: string;
   stop_lat: string;
   stop_lon: string;
-  parent_stop: string;
+  parent_station: string;
   stop_sequence: string;
 };
 
