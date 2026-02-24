@@ -4,7 +4,7 @@ export type ParsedStop = {
   stop_lat: string;
   stop_lon: string;
   parent_stop: string;
-  stop_sequence: number;
+  stop_sequence: string;
 };
 
 export type ParsedRoute = {

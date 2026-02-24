@@ -12,7 +12,6 @@ class GTFSParser:
     def parse_file(
         self,
         file_name: str,
-        expected_row_length: int,
         rows_to_take: list[str] | None = None,
     ) -> list[dict[str, str]]:
         file_path = self.path + "/" + file_name
@@ -26,12 +25,7 @@ class GTFSParser:
         with open(file_path, "r") as file:
             reader = csv.DictReader(file)
 
-            for i, row in enumerate(reader):
-                if len(row) != expected_row_length:
-                    print(
-                        f"Row {i + 1} has {len(row)} items. Expected {expected_row_length} items."
-                    )
-
+            for row in reader:
                 if rows_to_take is not None:
                     row = {
                         key: value for key, value in row.items() if key in rows_to_take
@@ -49,7 +43,6 @@ class GTFSParser:
         stops_per_route = {}
         routes = self.parse_file(
             "routes.txt",
-            10,
             rows_to_take=[
                 "route_id",
                 "route_short_name",
@@ -60,7 +53,6 @@ class GTFSParser:
         )
         stops = self.parse_file(
             "stops.txt",
-            6,
             rows_to_take=[
                 "stop_id",
                 "stop_name",
@@ -79,9 +71,9 @@ class GTFSParser:
             for stop in stops
         }
 
-        trips = self.parse_file("trips.txt", 6, rows_to_take=["route_id", "trip_id"])
+        trips = self.parse_file("trips.txt", rows_to_take=["route_id", "trip_id"])
         stop_times = self.parse_file(
-            "stop_times.txt", 5, rows_to_take=["trip_id", "stop_id", "stop_sequence"]
+            "stop_times.txt", rows_to_take=["trip_id", "stop_id", "stop_sequence"]
         )
 
         for route in routes:
@@ -117,7 +109,11 @@ class GTFSParser:
             route_id = trip["route_id"]
             trip_id = trip["trip_id"]
 
-            if route_id in stops_per_route and len(stops_per_route[route_id]) == 0:
+            if (
+                route_id in stops_per_route
+                and len(stops_per_route[route_id]) == 0
+                and trip_id in stop_times_by_trip
+            ):
                 stops_per_route[route_id] = stop_times_by_trip[trip_id]
 
         return [
